@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_marginBottom="5dp"
-    android:background="#FFF">
+    android:layout_marginBottom="16dp"
+    android:background="#444343">
 
     <!--Thumbnail Image-->
     <ImageView
         android:id="@+id/poster"
-        android:layout_width="80dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="5dp"
@@ -23,6 +23,7 @@
         android:id="@+id/movie_title_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFF"
         android:layout_toRightOf="@+id/poster"
         android:text="The movie title"
         android:textSize="15dp"
@@ -33,19 +34,25 @@
         android:id="@+id/movie_overview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFF"
         android:layout_below="@+id/movie_title_details"
         android:layout_toRightOf="@+id/poster"
         android:text="The movie overview"
         android:textSize="15dp"
         android:textStyle="italic" />
 
-    <!--<RatingBar-->
-        <!--android:id="@+id/ratingBar"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentTop="true"-->
-        <!--android:layout_alignStart="@+id/movie_title_details"-->
-        <!--android:layout_marginTop="54dp" />-->
+    <ImageView
+        android:id="@+id/backdrop_fullLayout"
+        tools:src="@drawable/ic_launcher_background"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <!--<com.google.android.youtube.player.YouTubePlayerView-->
+        <!--android:id="@+id/playerYoutube"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
 
 
 </RelativeLayout>

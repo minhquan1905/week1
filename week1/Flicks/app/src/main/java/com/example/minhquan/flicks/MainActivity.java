@@ -107,10 +107,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    protected void onSaveInstanceState(Bundle outState) {
-//        super.onSaveInstanceState(outState);
-//        outState.putInt("listPosition", recyclerView.getScrollState());
-//        outState.putParcelableArrayList("listMovie",new ArrayList<Parcelable>(movieList));
-//    }
 }

@@ -8,20 +8,20 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
-* [ ] List item with the [RecyclerView](https://guides.codepath.com/android/Using-the-RecyclerView).
-* [ ] For each movie displayed, user can see the following details:
- * [ ] Title, Poster Image, Overview (Portrait mode)
- * [ ] Title, Backdrop Image, Overview (Landscape mode)
+* [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+* [x] List item with the [RecyclerView](https://guides.codepath.com/android/Using-the-RecyclerView).
+* [x] For each movie displayed, user can see the following details:
+ * [x] Title, Poster Image, Overview (Portrait mode)
+ * [x] Title, Backdrop Image, Overview (Landscape mode)
 
 The following **optional** features are implemented:
 
-* [ ] Display a nice default [placeholder graphic](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library) for each image during loading.
+* [x] Display a nice default [placeholder graphic](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library) for each image during loading.
 
 The following **bonus** features are implemented:
 
-* [ ] Allow user to view details of the movie including ratings and popularity within a separate activity or dialog fragment.
-* [ ] When viewing a popular movie (i.e. a movie voted for more than 5 stars) the video should show the full backdrop image as the layout.  Uses [Heterogenous RecyclerView](http://guides.codepath.com/android/Heterogenous-Layouts-inside-RecyclerView) to show different layouts.
+* [x ] Allow user to view details of the movie including ratings and popularity within a separate activity or dialog fragment.
+* [x ] When viewing a popular movie (i.e. a movie voted for more than 5 stars) the video should show the full backdrop image as the layout.  Uses [Heterogenous RecyclerView](http://guides.codepath.com/android/Heterogenous-Layouts-inside-RecyclerView) to show different layouts.
 * [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView.
    * [ ] Overlay a play icon for videos that can be played.
    * [ ] More popular movies should start a separate activity that plays the video immediately.

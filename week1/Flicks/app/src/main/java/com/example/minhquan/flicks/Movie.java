@@ -45,8 +45,13 @@ public class Movie  {
      */
     protected String overview;
 
+    /**
+     * The vote average
+     */
+    protected double vote_average;
+
     public Movie(int id, String title, String original_title, String release_date,
-                 String poster, String backdrop, double rating, double popularity, String overview) {
+                 String poster, String backdrop, double rating, double popularity, String overview, double vote_average) {
         this.id = id;
         this.title = title;
         this.original_title = original_title;
@@ -56,6 +61,11 @@ public class Movie  {
         this.rating = rating;
         this.popularity = popularity;
         this.overview = overview;
+        this.vote_average = vote_average;
+    }
+
+    public double getVote_average() {
+        return vote_average;
     }
 
     public String getBackdrop() {

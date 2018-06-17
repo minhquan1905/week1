@@ -19,7 +19,8 @@ public class DTOModelEntitiesDataMapper {
                 createPosterLink(dto.getBackdropPath()),
                 dto.getVoteAverage(),
                 dto.getPopularity(),
-                dto.getOverview()
+                dto.getOverview(),
+                dto.getVoteAverage()
         );
     }
 
