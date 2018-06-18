@@ -1,8 +1,8 @@
-﻿# Project 1 - *Name of App Here*
+﻿# Project 1 - *Flicks*
 
-**Name of your app** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
+**Flicks** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-Time spent: **X** hours spent in total
+Time spent: **24** hours spent in total
 
 ## User Stories
 
@@ -48,11 +48,11 @@ Describe any challenges encountered while building the app.
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
-- [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
+- [Retrofit](http://square.github.io/retrofit/) - Retrofit turns your HTTP API into a Java interface.
 
 ## License
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright [2018] [Ginn]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
